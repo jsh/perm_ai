@@ -1,0 +1,19 @@
+[project]
+name = "perm-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jeffrey S. Haemer", email = "jeffrey.haemer@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "sympy>=1.13.3",
+]
+
+[project.scripts]
+perm-ai = "perm_ai:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
