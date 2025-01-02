@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-perm-ai = "perm_ai:main"
+perm-ai = "perm_ai.cycles:main"
 
 [build-system]
 requires = ["hatchling"]
